@@ -1,6 +1,23 @@
-node_modules/
-.env
-.vscode/
+# Operating system files
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Editor and IDE folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies and build output (if you add tooling later)
+node_modules/
+dist/
+build/
+
+# Logs
 *.log
+npm-debug.log*
+
+# Environment files (never commit secrets)
+.env
+.env.*
